@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meet the Team</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      background-image: url('https://static.vecteezy.com/system/resources/previews/000/664/710/original/vector-abstract-technology-background-hi-tech-communication-digital-background.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+    }
+
+    .about-us {
+      max-width: 600px;
+      margin: 0 auto 40px;
+      font-size: 1.2rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 250px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-body {
+      padding: 15px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .card p {
+      margin: 0;
+      color: #777;
+    }
+
+    @media (max-width: 768px) {
+      .team-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="about-us">
+    <p>We’re a passionate team of developers committed to building beautiful web experiences.</p>
+  </div>
+
+  <div class="team-container">
+    <div class="card">
+      <img src="https://placehold.co/250x250" alt="Team Member">
+      <div class="card-body">
+        <h3>Mohammed Farhan</h3>
+        <p>Frontend Developer</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://placehold.co/250x250" alt="Team Member">
+      <div class="card-body">
+        <h3>Mayur Rajendra</h3>
+        <p>Backend Developer</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://placehold.co/250x250" alt="Team Member">
+      <div class="card-body">
+        <h3>Ankit Matade</h3>
+        <p>UI/UX Designer</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
